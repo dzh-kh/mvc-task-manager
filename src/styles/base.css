@@ -1,0 +1,28 @@
+:root {
+  --sidebar-bg: #161a23;
+  --main-bg: #0c111d;
+  --text: #fcfbfc;
+  --text2: #979ca1;
+  /* --card-bg: var(--text); */
+  --edit-bg: #141b2b;
+  --high-bg: #55160c;
+  --high-text: #ffa8a1;
+  --normal-bg: #053321;
+  --normal-text: #7eeeb2;
+  --low-bg: #062b3f;
+  --low-text: #68b6da;
+  --date-border: #4d3cdd;
+  --border: #1c202c;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --tab-height: 40px;
+  --btn-primary-bg: #3e465c;
+}
+
+button,
+input {
+  cursor: pointer;
+}
+
+* {
+  transition: all 0.4s linear;
+}
